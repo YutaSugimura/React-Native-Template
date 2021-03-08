@@ -16,7 +16,9 @@
     "ios:pod": "cd ios && pod install && cd ..",
     "android:clean": "cd android && ./gradlew clean && cd ..",
     "android:build": "cd android && ./gradlew bundleRelease && cd ..",
-    "android:releaseTest": "react-native run-android --variant=release"
+    "android:releaseTest": "react-native run-android --variant=release",
+    "storybook": "start-storybook",
+    "storybook:build": "build-storybook -o ./build/site"
   },
   "dependencies": {
     "react": "16.13.1",
@@ -26,6 +28,11 @@
     "@babel/core": "^7.8.4",
     "@babel/runtime": "^7.8.4",
     "@react-native-community/eslint-config": "^2.0.0",
+    "@storybook/addon-actions": "^6.1.21",
+    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-knobs": "^6.1.21",
+    "@storybook/addon-viewport": "^6.1.21",
+    "@storybook/react": "^6.1.21",
     "@testing-library/react-hooks": "^5.1.0",
     "@types/jest": "^26.0.20",
     "@types/react-native": "^0.63.51",
@@ -44,7 +51,9 @@
     "lint-staged": "^10.5.4",
     "metro-react-native-babel-preset": "^0.59.0",
     "prettier": "^2.2.1",
+    "react-dom": "^17.0.1",
     "react-native-bundle-visualizer": "^2.2.1",
+    "react-native-web": "^0.15.0",
     "react-test-renderer": "16.13.1",
     "typescript": "4.2.3"
   },
