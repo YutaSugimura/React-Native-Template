@@ -60,6 +60,9 @@
       "jsx",
       "json",
       "node"
+    ],
+    "setupFiles": [
+      "./jest/jest.setup.js"
     ]
   },
   "husky": {
