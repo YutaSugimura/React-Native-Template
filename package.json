@@ -10,7 +10,8 @@
     "test": "jest",
     "lint": "eslint '**/*.{js,jsx,ts,tsx}' --quiet",
     "lint:fix": "eslint '**/*.{js,jsx,ts,tsx}' --quiet --fix",
-    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
+    "bundle-visualize": "./node_modules/.bin/react-native-bundle-visualizer"
   },
   "dependencies": {
     "react": "16.13.1",
@@ -36,6 +37,7 @@
     "lint-staged": "^10.5.4",
     "metro-react-native-babel-preset": "^0.59.0",
     "prettier": "^2.2.1",
+    "react-native-bundle-visualizer": "^2.2.1",
     "react-test-renderer": "16.13.1",
     "typescript": "4.2.3"
   },
