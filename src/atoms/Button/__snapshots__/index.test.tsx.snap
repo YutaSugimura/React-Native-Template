@@ -3,6 +3,7 @@
 exports[`renders correctly atoms/Button (default) 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onBlur={[Function]}
   onClick={[Function]}
@@ -57,6 +58,7 @@ exports[`renders correctly atoms/Button (default) 1`] = `
 exports[`renders correctly atoms/Button (props) 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onBlur={[Function]}
   onClick={[Function]}
