@@ -1,6 +1,6 @@
 # React Native Template
 
-- [React Native](https://reactnative.dev/)
+- [React Native](https://reactnative.dev/) The version we are using is 0.64.0.
   - [github](https://github.com/facebook/react-native)
   - [react-native-community/cli](https://github.com/react-native-community/cli)
 
